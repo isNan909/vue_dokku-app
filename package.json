@@ -6,10 +6,12 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "yarn run dev",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
     "vue": "^2.5.2"
   },
   "devDependencies": {
